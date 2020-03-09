@@ -25,7 +25,7 @@
   
   .condiv
   {
-    padding: 100px ;
+    padding: 20px ;
     
     flex:var(--condiv-flex);
   }

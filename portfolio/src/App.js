@@ -7,7 +7,7 @@ import {
 import Navbar from './components/sidebar';
 import Home from './contents/home';
 import About from './contents/about';
-// import Projects from './contents/projects';
+import Project from './contents/project';
 import Resume from './contents/resume';
 import Contact from './contents/contact';
 
@@ -21,6 +21,9 @@ return (
     </Route>
     <Route path="/about">
     <About />
+    </Route>
+    <Route path="/project">
+    <Project />
     </Route>
     </div>
 </Router>
