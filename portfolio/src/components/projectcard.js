@@ -6,10 +6,16 @@ class Projectcard extends Component {
         return(
             <div id="projectcard">
                 <img src={this.props.img}></img>
-                <h3>{this.props.title}</h3>
-                <h4> Description:</h4>
+                <h2>{this.props.title}</h2>
+                <h3> Description:</h3>
                 <p>{this.props.description}</p>
-                <h4>{this.props.techused}</h4>
+                <h3>{this.props.techused}</h3>
+                <h3>Links:</h3>
+                <p> <a href={this.props.linktogb}>Github</a></p>
+                <p> <a href={this.props.linktoapp}>Website</a></p>
+                
+                
+               
             </div>
            
         )

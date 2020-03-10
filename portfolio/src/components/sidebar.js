@@ -7,17 +7,17 @@ import Navitem5 from "./navitem5"
 import profilepic from "../images/selfie.jpeg";
 
 class Navbar extends Component {
-    
+
     render() {
     return (
        <nav>
            <img src={profilepic} class="mr-3 rounded-square img-thumbnail shadow-sm" className="profilepic"></img>
            <ul>
-            <Navitem1 item=" Home" tolink="/" activec={this.activeitem}></Navitem1>
-            <Navitem3 item=" Projects" tolink="/project" activec={this.activeitem}></Navitem3>
-            <Navitem4 item=" Resume" tolink="/skills" activec={this.activeitem}></Navitem4>
-            <Navitem2 item=" About" tolink="/about" activec={this.activeitem}></Navitem2>
-            <Navitem5 item=" Contact" tolink="/contact" activec={this.activeitem}></Navitem5>
+            <Navitem1 item=" Home" tolink="/"></Navitem1>
+            <Navitem3 item=" Projects" tolink="/project" ></Navitem3>
+            <Navitem4 item=" Resume" tolink="/skills" ></Navitem4>
+            <Navitem2 item=" About" tolink="/about" ></Navitem2>
+            <Navitem5 item=" Contact" tolink="/contact" ></Navitem5>
            </ul>
        </nav>
         )

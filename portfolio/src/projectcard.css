@@ -5,12 +5,14 @@ img{
 }
 
 #projectcard{
-background-color:#BABCBF;
+background-color: black;
 opacity: .95;
+margin: 5px;
 border-color: #F2F2F2;
 /* padding-right: 15px;
 padding-left: 15px; */
-position: flex;
+color: white;
+float: left;
 
 /* border-width: 2px; */
 }
