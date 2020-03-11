@@ -180,3 +180,25 @@ background:  #404040;
 .About{
   color: white;
 }
+#PortTitle{
+  font-family: 'Bellota Text', cursive;
+
+}
+label{
+  color:white;
+  font-family: 'Bellota Text', cursive;
+  font-size: larger;
+  
+}
+.title{
+  font-family: 'Bellota Text', cursive;
+}
+textarea{
+  height:300px;
+  width:500px;
+}
+button{
+  background-color: transparent;
+  color: white;
+  font-size: medium;
+}

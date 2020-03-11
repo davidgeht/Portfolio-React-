@@ -14,10 +14,8 @@ class Projectcard extends Component {
                 <p> <a href={this.props.linktogb}>Github</a></p>
                 <p> <a href={this.props.linktoapp}>Website</a></p>
                 
-                
-               
             </div>
-           
+
         )
     }
 }

@@ -25,6 +25,9 @@ return (
     <Route path="/project">
     <Project />
     </Route>
+    <Route path="/contact">
+      <Contact/>
+    </Route>
     </div>
 </Router>
 )
