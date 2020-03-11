@@ -28,6 +28,9 @@ return (
     <Route path="/contact">
       <Contact/>
     </Route>
+    <Route path="/resume">
+      <Resume/>
+    </Route>
     </div>
 </Router>
 )

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MyForm from '../formspree'
+import MyForm from '../components/formspree';
 
 
 class Contact extends Component{
