@@ -93,7 +93,7 @@
   .social i
   {
     padding-right: 30px;
-    font-size: 25px;
+    font-size: 30pt;
     color:white;
   }
   .social i:hover
@@ -200,5 +200,6 @@ textarea{
 button{
   background-color: transparent;
   color: white;
-  font-size: medium;
+  font-size: large;
+  font-weight: bold;
 }

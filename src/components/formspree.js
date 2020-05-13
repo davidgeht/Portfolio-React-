@@ -30,7 +30,7 @@ export default class MyForm extends React.Component {
         <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="name@example.com"/>
         </div>
         <div class="form-group">
-        <label for="exampleFormControlTextarea1">Example textarea</label>
+        <label for="exampleFormControlTextarea1">Message:</label>
         <br></br>
         <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>

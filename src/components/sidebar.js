@@ -5,6 +5,8 @@ import Navitem3 from "./navitem3"
 import Navitem4 from "./navitem4"
 import Navitem5 from "./navitem5"
 import profilepic from "../images/selfie.jpeg";
+import Social from "./social";
+
 
 class Navbar extends Component {
 
@@ -19,6 +21,9 @@ class Navbar extends Component {
             <Navitem2 item=" About" tolink="/about" ></Navitem2>
             <Navitem5 item=" Contact" tolink="/contact" ></Navitem5>
            </ul>
+           <Social/>
+           
+
        </nav>
         )
     }
