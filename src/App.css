@@ -60,6 +60,7 @@
     list-style-type: none;
     text-decoration: none;
     color: white !important;
+    
   }
   nav ul li
   {
@@ -85,6 +86,7 @@
   }
   .social
   {
+    padding-top: 15px;
     position: absolute;
     margin-top: 20px;
     display: flex;
@@ -121,6 +123,16 @@
     list-style-type:none;
     margin:30px;
   }
+
+  #skillsTitle{
+    color: white;
+    font-family: 'Bellota Text', cursive;
+    font-size: larger;
+
+
+    
+  }
+  
   
   @media all and (max-width: 450px) {
     :root {
